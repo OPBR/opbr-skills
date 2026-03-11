@@ -43,7 +43,10 @@ your-project/
             ├── SKILL.md
             └── references/
 ```
-
+或者
+```
+npx skills add opbr/opbr-skills
+```
 ## 许可证
 
 [MIT](./LICENSE)
