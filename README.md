@@ -31,6 +31,25 @@ Skill 是一套结构化的指令文件，用于扩展 AI Agent（如 Antigravit
 
 ---
 
+### 🎓 [source-code-learner](./skills/source-code-learner/)
+
+> 通过结构化的交互式引导，帮助程序员从零开始理解并重建真实开源项目。
+
+**触发场景：**
+- 说"帮我学这个项目"、"带我读这份源码"、"从零开始复现 X"
+- 想深入理解某个开源库 / 框架的内部原理
+- 希望通过动手重建来掌握架构模式
+- 备战面试，需要深入研究某个经典项目
+
+**特性：**
+- 分阶段生成可视化学习路线图（Roadmap）
+- 每步骤提供"概念讲解 → 编码任务 → 代码评审 → 反馈"完整闭环
+- 根据学习者水平（初级 / 中级 / 高级）自动调整任务粒度
+- 内置检查点测验与阶段性集成测试
+- 支持 GitHub URL、本地文件、粘贴代码等多种输入方式
+
+---
+
 ## 使用方式
 
 将需要的 Skill 文件夹复制到你项目的 Agent 目录下：
@@ -39,7 +58,10 @@ Skill 是一套结构化的指令文件，用于扩展 AI Agent（如 Antigravit
 your-project/
 └── .agents/
     └── skills/
-        └── infographic-maker/
+        ├── infographic-maker/
+        │   ├── SKILL.md
+        │   └── references/
+        └── source-code-learner/
             ├── SKILL.md
             └── references/
 ```
@@ -47,6 +69,7 @@ your-project/
 ```
 npx skills add opbr/opbr-skills
 ```
+
 ## 许可证
 
 [MIT](./LICENSE)
