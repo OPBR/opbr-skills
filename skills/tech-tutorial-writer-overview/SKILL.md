@@ -1,3 +1,9 @@
+---
+name: tech-tutorial-writer
+description: >
+  Generate high-quality, publish-ready technical tutorials for beginner, intermediate, and advanced readers. Use this skill whenever the user wants to write a tech article, tutorial, or blog post — especially for platforms like WeChat Official Account or Juejin. Trigger when the user says things like "write a tutorial", "help me write an article", "generate a blog post", "explain X in a structured way", or asks to produce educational content about a programming topic. Covers frontend, backend, algorithms, and AI/ML domains.
+---
+
 # Tech Tutorial Writer — Skill Overview
 
 This skill is a structured writing system for producing **high-quality, publish-ready technical tutorials**. Every article it generates is designed to be dropped directly into a blog, developer community, or newsletter with minimal editing.
