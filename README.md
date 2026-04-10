@@ -50,6 +50,25 @@ Skill 是一套结构化的指令文件，用于扩展 AI Agent（如 Antigravit
 
 ---
 
+### ✍️ [tech-tutorial-writer-overview](./skills/tech-tutorial-writer-overview/)
+
+> 生成高质量、可直接发布的技术教程，覆盖初级 / 中级 / 高级三档读者层次。
+
+**触发场景：**
+- 说「帮我写一篇技术文章」、「写个教程」、「生成一篇博客」
+- 想在微信公众号、掘金等平台发布技术内容
+- 需要将某项技术系统地讲清楚，并输出完整可运行示例
+- 备赛 / 备课，需要快速生成结构化学习材料
+
+**特性：**
+- 三档写作策略：🌱 入门（建立心智模型）/ 🚀 进阶（模式与最佳实践）/ 🏆 高级（源码级分析与生产故事）
+- 固定七段结构：Hook → 心智模型 → 环境搭建 → 核心内容 → 动手项目 → FAQ → 总结
+- 适配微信公众号与掘金两种平台的排版规范
+- 代码全部可运行，内置 TypeScript 类型、错误处理与最佳实践标注
+- 覆盖前端、后端、算法、AI/ML 四大技术域的完整学习路径
+
+---
+
 ## 使用方式
 
 将需要的 Skill 文件夹复制到你项目的 Agent 目录下：
@@ -61,9 +80,11 @@ your-project/
         ├── infographic-maker/
         │   ├── SKILL.md
         │   └── references/
-        └── source-code-learner/
-            ├── SKILL.md
-            └── references/
+        ├── source-code-learner/
+        │   ├── SKILL.md
+        │   └── references/
+        └── tech-tutorial-writer-overview/
+            └── SKILL.md
 ```
 或者
 ```
